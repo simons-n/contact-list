@@ -1,0 +1,11 @@
+Nick Simons
+Razet
+Project Phase 3
+11/8/16
+
+For this phase of the project, I actually have two ideas that I'm interested in pursuing. I'll first describe the more likely of the two programs.
+
+One idea I've got for the project is to create an application that serves as an address book.  The program would allow users to enter contacts by name and fill in fields for each contact, including e-mail address, home address, phone number, and any other relevant information.  Additionally, users might be able to organize contacts by relation by allowing for separate categories such as family, friends, and coworkers.  If possible, I would like to complete this using Ruby on Rails.  I think that this software and its implementation would be appropriate for Ruby because it promotes the use of objects (e.g. each contact would be an object with phone number and address variables).  Additionally, because Ruby, and specifically the Ruby on Rails, are frequently used for web software, I think it would be appropriate to create this project as web software using Ruby on Rails.  This software will surely make use of the fact that Ruby is object oriented.
+
+
+My alternative idea, and the one that I'm more interested in, is creating some program that serves as a piano/synthesizer simulator.  A user could either click on a piano key on the screen or press an appropriate key on their computer's keyboard, resulting in a corresponding note being played.  The problem with this idea is that I'm unsure of how I could make it really showcase Ruby's object-oriented nature, which seems to be one of the key features of the language.  If you have any suggestions, please let me know. Otherwise, I will go with the first idea.

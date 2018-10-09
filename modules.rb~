@@ -1,0 +1,6 @@
+module Human
+  def self.walk
+    puts "two legs"
+  end
+end
+

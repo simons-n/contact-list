@@ -1,0 +1,17 @@
+
+$glVal = 2
+def scopeTest
+  begin
+    locVal = 1
+    puts changeS(locVal)
+    puts glVal * locVal
+  rescue
+    puts "Ruby is statically scoped"
+  end
+end
+
+def changeS(x) 
+  glVal = 3
+  return glVal * x
+end
+scopeTest()

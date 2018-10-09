@@ -1,0 +1,8 @@
+str1 = "string one"
+str2 = String.new => "string two"
+str3 = String.new("string three")
+
+puts str1
+puts str2
+puts str3
+

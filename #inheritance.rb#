@@ -1,0 +1,37 @@
+class Cat
+  LEGS = 4
+  @@isCat
+  def initialize(name, color, age)
+    @name = name
+    @color = color
+    @age = age
+    @@isCat = "true"
+  end
+  def getLegs
+    return LEGS
+  end
+  def getIsCat
+    return @@isCat
+  end
+end
+
+class Tiger < Cat
+  def isBig
+    puts "yes"
+  end
+  def toStr
+    puts "name: #@name, color: #@color, age: #@age" 
+  end
+end
+
+  hobbes = Tiger.new("Hobbes", "Orange", 12)
+  hobbes.toStr() 
+  puts hobbes.getIsCat()
+  puts hobbes.getLegs()
+  puts
+  puts Tiger.ancestors
+  puts
+  puts String.ancestors
+  puts
+  puts Integer.ancestors()
+

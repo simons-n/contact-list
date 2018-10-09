@@ -1,0 +1,12 @@
+module Human
+  def walk
+    puts "two legs"
+  end
+end
+=begin
+module Wombat
+  def walk
+    puts "four legs"
+  end
+end
+=end

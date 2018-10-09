@@ -1,0 +1,9 @@
+def elseTest(val)
+  if 0 < val
+  if val % 2 == 0
+  puts "even"
+  puts "positive"
+  else 
+  puts "not positive"
+  end
+end

@@ -1,0 +1,12 @@
+# Nick Simons
+# Report tests
+
+
+fortytwo = 42
+thirtyone = 31
+
+puts fortytwo.to_s(2)
+puts thirtyone.to_s(2)
+
+fortytwo = fortytwo >> 2
+puts fortytwo.to_s(2)

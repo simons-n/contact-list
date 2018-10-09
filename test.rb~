@@ -1,0 +1,25 @@
+# Nick Simons
+# Report tests
+
+
+
+
+
+class Int
+  def initialize(color, smell)
+    @color = color
+    @smell = smell
+  end
+  def getColor
+    return @color
+  end
+  def getSmell
+    return @smell
+  end
+end
+
+#three = Int.new("Purple", "Putrid")
+#print "3 is ", three.getColor, " and smells ", three.getSmell, "\n"
+
+
+

@@ -1,0 +1,15 @@
+Nick Simons
+Professor Razet
+Project Phase 2
+10/31/16
+
+Ruby is primarily a purely Object-Oriented programming language with features of Functional Programming and Imperative Programming.  The fact that Ruby is Object-Oriented is clear because every value in Ruby is an object, including values of that would be primitive types in many other languages [1].  This is apparent because values of any type in Ruby can have both instance variables and methods.  Additionally, Ruby supports some features of Functional Programming.  However, functions in Ruby are not inherently first-class functions (which is an aspect of functional programming), there are ways in which functions in Ruby can be treated as though they are first-class [2].  For example, blocks of code used to execute a function in Ruby can be packaged in a Proc, which serves as an object that can be used to allow Ruby functions to be passed as arguments or returned by other functions.   
+
+
+
+
+works cited:
+1. https://www.ruby-lang.org/en/about/
+2. https://www.sitepoint.com/functional-programming-techniques-with-ruby-part-ii/
+3. https://www.joinhandshake.com/engineering/2016/01/22/functional-aspects-of-ruby.html
+
